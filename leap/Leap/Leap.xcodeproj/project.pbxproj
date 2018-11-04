@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1164A6B0211A6CFB00604681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164A6AF211A6CFB00604681 /* main.m */; };
+		1164A6BD211A6D0C00604681 /* Leap_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164A6BC211A6D0C00604681 /* Leap_Tests.m */; };
+		1164A6C4211A6D1A00604681 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1164A6C2211A6D1A00604681 /* README.md */; };
+		1164A6C8211A6D4500604681 /* Leap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164A6C7211A6D4500604681 /* Leap.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1164A6AA211A6CFB00604681 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1164A6AC211A6CFB00604681 /* Leap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leap; sourceTree = BUILT_PRODUCTS_DIR; };
+		1164A6AF211A6CFB00604681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1164A6BA211A6D0C00604681 /* Leap Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leap Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1164A6BC211A6D0C00604681 /* Leap_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Leap_Tests.m; sourceTree = "<group>"; };
+		1164A6BE211A6D0C00604681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1164A6C2211A6D1A00604681 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1164A6C6211A6D4500604681 /* Leap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		1164A6C7211A6D4500604681 /* Leap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Leap.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1164A6A9211A6CFB00604681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1164A6B7211A6D0C00604681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1164A6A3211A6CFB00604681 = {
+			isa = PBXGroup;
+			children = (
+				1164A6AE211A6CFB00604681 /* Leap */,
+				1164A6BB211A6D0C00604681 /* Leap Tests */,
+				1164A6AD211A6CFB00604681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1164A6AD211A6CFB00604681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1164A6AC211A6CFB00604681 /* Leap */,
+				1164A6BA211A6D0C00604681 /* Leap Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1164A6AE211A6CFB00604681 /* Leap */ = {
+			isa = PBXGroup;
+			children = (
+				1164A6AF211A6CFB00604681 /* main.m */,
+			);
+			path = Leap;
+			sourceTree = "<group>";
+		};
+		1164A6BB211A6D0C00604681 /* Leap Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1164A6C6211A6D4500604681 /* Leap.h */,
+				1164A6C7211A6D4500604681 /* Leap.m */,
+				1164A6BC211A6D0C00604681 /* Leap_Tests.m */,
+				1164A6C2211A6D1A00604681 /* README.md */,
+				1164A6BE211A6D0C00604681 /* Info.plist */,
+			);
+			path = "Leap Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1164A6AB211A6CFB00604681 /* Leap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1164A6B3211A6CFB00604681 /* Build configuration list for PBXNativeTarget "Leap" */;
+			buildPhases = (
+				1164A6A8211A6CFB00604681 /* Sources */,
+				1164A6A9211A6CFB00604681 /* Frameworks */,
+				1164A6AA211A6CFB00604681 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leap;
+			productName = Leap;
+			productReference = 1164A6AC211A6CFB00604681 /* Leap */;
+			productType = "com.apple.product-type.tool";
+		};
+		1164A6B9211A6D0C00604681 /* Leap Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1164A6BF211A6D0C00604681 /* Build configuration list for PBXNativeTarget "Leap Tests" */;
+			buildPhases = (
+				1164A6B6211A6D0C00604681 /* Sources */,
+				1164A6B7211A6D0C00604681 /* Frameworks */,
+				1164A6B8211A6D0C00604681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leap Tests";
+			productName = "Leap Tests";
+			productReference = 1164A6BA211A6D0C00604681 /* Leap Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1164A6A4211A6CFB00604681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Adam Felix";
+				TargetAttributes = {
+					1164A6AB211A6CFB00604681 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1164A6B9211A6D0C00604681 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1164A6A7211A6CFB00604681 /* Build configuration list for PBXProject "Leap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1164A6A3211A6CFB00604681;
+			productRefGroup = 1164A6AD211A6CFB00604681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1164A6AB211A6CFB00604681 /* Leap */,
+				1164A6B9211A6D0C00604681 /* Leap Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1164A6B8211A6D0C00604681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1164A6C4211A6D1A00604681 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1164A6A8211A6CFB00604681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1164A6B0211A6CFB00604681 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1164A6B6211A6D0C00604681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1164A6BD211A6D0C00604681 /* Leap_Tests.m in Sources */,
+				1164A6C8211A6D4500604681 /* Leap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1164A6B1211A6CFB00604681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1164A6B2211A6CFB00604681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1164A6B4211A6CFB00604681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1164A6B5211A6CFB00604681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1164A6C0211A6D0C00604681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Leap Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamfelix.Leap-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1164A6C1211A6D0C00604681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Leap Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamfelix.Leap-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1164A6A7211A6CFB00604681 /* Build configuration list for PBXProject "Leap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1164A6B1211A6CFB00604681 /* Debug */,
+				1164A6B2211A6CFB00604681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1164A6B3211A6CFB00604681 /* Build configuration list for PBXNativeTarget "Leap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1164A6B4211A6CFB00604681 /* Debug */,
+				1164A6B5211A6CFB00604681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1164A6BF211A6D0C00604681 /* Build configuration list for PBXNativeTarget "Leap Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1164A6C0211A6D0C00604681 /* Debug */,
+				1164A6C1211A6D0C00604681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1164A6A4211A6CFB00604681 /* Project object */;
+}

@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D9275B212763D1002AF3EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D9275A212763D1002AF3EB /* main.m */; };
+		11D92768212763FE002AF3EB /* Raindrops_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D92767212763FE002AF3EB /* Raindrops_Tests.m */; };
+		11D9276F21276412002AF3EB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 11D9276D21276412002AF3EB /* README.md */; };
+		11D9277321276444002AF3EB /* Raindrops.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D9277221276444002AF3EB /* Raindrops.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11D92755212763D1002AF3EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11D92757212763D1002AF3EB /* Raindrops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Raindrops; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D9275A212763D1002AF3EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11D92765212763FE002AF3EB /* Raindrops Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raindrops Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D92767212763FE002AF3EB /* Raindrops_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Raindrops_Tests.m; sourceTree = "<group>"; };
+		11D92769212763FE002AF3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D9276D21276412002AF3EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		11D9277121276444002AF3EB /* Raindrops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Raindrops.h; sourceTree = "<group>"; };
+		11D9277221276444002AF3EB /* Raindrops.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Raindrops.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D92754212763D1002AF3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D92762212763FE002AF3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D9274E212763D1002AF3EB = {
+			isa = PBXGroup;
+			children = (
+				11D92759212763D1002AF3EB /* Raindrops */,
+				11D92766212763FE002AF3EB /* Raindrops Tests */,
+				11D92758212763D1002AF3EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11D92758212763D1002AF3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D92757212763D1002AF3EB /* Raindrops */,
+				11D92765212763FE002AF3EB /* Raindrops Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D92759212763D1002AF3EB /* Raindrops */ = {
+			isa = PBXGroup;
+			children = (
+				11D9275A212763D1002AF3EB /* main.m */,
+			);
+			path = Raindrops;
+			sourceTree = "<group>";
+		};
+		11D92766212763FE002AF3EB /* Raindrops Tests */ = {
+			isa = PBXGroup;
+			children = (
+				11D9277121276444002AF3EB /* Raindrops.h */,
+				11D9277221276444002AF3EB /* Raindrops.m */,
+				11D92767212763FE002AF3EB /* Raindrops_Tests.m */,
+				11D9276D21276412002AF3EB /* README.md */,
+				11D92769212763FE002AF3EB /* Info.plist */,
+			);
+			path = "Raindrops Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D92756212763D1002AF3EB /* Raindrops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D9275E212763D1002AF3EB /* Build configuration list for PBXNativeTarget "Raindrops" */;
+			buildPhases = (
+				11D92753212763D1002AF3EB /* Sources */,
+				11D92754212763D1002AF3EB /* Frameworks */,
+				11D92755212763D1002AF3EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raindrops;
+			productName = Raindrops;
+			productReference = 11D92757212763D1002AF3EB /* Raindrops */;
+			productType = "com.apple.product-type.tool";
+		};
+		11D92764212763FE002AF3EB /* Raindrops Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D9276A212763FE002AF3EB /* Build configuration list for PBXNativeTarget "Raindrops Tests" */;
+			buildPhases = (
+				11D92761212763FE002AF3EB /* Sources */,
+				11D92762212763FE002AF3EB /* Frameworks */,
+				11D92763212763FE002AF3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raindrops Tests";
+			productName = "Raindrops Tests";
+			productReference = 11D92765212763FE002AF3EB /* Raindrops Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D9274F212763D1002AF3EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Adam Felix";
+				TargetAttributes = {
+					11D92756212763D1002AF3EB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					11D92764212763FE002AF3EB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 11D92752212763D1002AF3EB /* Build configuration list for PBXProject "Raindrops" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11D9274E212763D1002AF3EB;
+			productRefGroup = 11D92758212763D1002AF3EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D92756212763D1002AF3EB /* Raindrops */,
+				11D92764212763FE002AF3EB /* Raindrops Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D92763212763FE002AF3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9276F21276412002AF3EB /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D92753212763D1002AF3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9275B212763D1002AF3EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D92761212763FE002AF3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9277321276444002AF3EB /* Raindrops.m in Sources */,
+				11D92768212763FE002AF3EB /* Raindrops_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11D9275C212763D1002AF3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11D9275D212763D1002AF3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11D9275F212763D1002AF3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11D92760212763D1002AF3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11D9276B212763FE002AF3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Raindrops Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamfelix.Raindrops-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11D9276C212763FE002AF3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Raindrops Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamfelix.Raindrops-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D92752212763D1002AF3EB /* Build configuration list for PBXProject "Raindrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9275C212763D1002AF3EB /* Debug */,
+				11D9275D212763D1002AF3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D9275E212763D1002AF3EB /* Build configuration list for PBXNativeTarget "Raindrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9275F212763D1002AF3EB /* Debug */,
+				11D92760212763D1002AF3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D9276A212763FE002AF3EB /* Build configuration list for PBXNativeTarget "Raindrops Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D9276B212763FE002AF3EB /* Debug */,
+				11D9276C212763FE002AF3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11D9274F212763D1002AF3EB /* Project object */;
+}

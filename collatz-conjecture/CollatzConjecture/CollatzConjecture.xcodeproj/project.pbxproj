@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118A21D2212489E200CC7E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 118A21D1212489E200CC7E98 /* main.m */; };
+		118A21DF212489F700CC7E98 /* CollatzConjecture_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 118A21DE212489F700CC7E98 /* CollatzConjecture_Tests.m */; };
+		118A21E721248A0200CC7E98 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 118A21E521248A0200CC7E98 /* README.md */; };
+		118A21EA21248A3B00CC7E98 /* CollatzConjecture.m in Sources */ = {isa = PBXBuildFile; fileRef = 118A21E921248A3B00CC7E98 /* CollatzConjecture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		118A21CC212489E200CC7E98 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		118A21CE212489E200CC7E98 /* CollatzConjecture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CollatzConjecture; sourceTree = BUILT_PRODUCTS_DIR; };
+		118A21D1212489E200CC7E98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		118A21DC212489F700CC7E98 /* CollatzConjecture Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CollatzConjecture Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118A21DE212489F700CC7E98 /* CollatzConjecture_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollatzConjecture_Tests.m; sourceTree = "<group>"; };
+		118A21E0212489F700CC7E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118A21E521248A0200CC7E98 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		118A21E821248A3B00CC7E98 /* CollatzConjecture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollatzConjecture.h; sourceTree = "<group>"; };
+		118A21E921248A3B00CC7E98 /* CollatzConjecture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollatzConjecture.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118A21CB212489E200CC7E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118A21D9212489F700CC7E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118A21C5212489E200CC7E98 = {
+			isa = PBXGroup;
+			children = (
+				118A21D0212489E200CC7E98 /* CollatzConjecture */,
+				118A21DD212489F700CC7E98 /* CollatzConjecture Tests */,
+				118A21CF212489E200CC7E98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		118A21CF212489E200CC7E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118A21CE212489E200CC7E98 /* CollatzConjecture */,
+				118A21DC212489F700CC7E98 /* CollatzConjecture Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118A21D0212489E200CC7E98 /* CollatzConjecture */ = {
+			isa = PBXGroup;
+			children = (
+				118A21D1212489E200CC7E98 /* main.m */,
+			);
+			path = CollatzConjecture;
+			sourceTree = "<group>";
+		};
+		118A21DD212489F700CC7E98 /* CollatzConjecture Tests */ = {
+			isa = PBXGroup;
+			children = (
+				118A21E821248A3B00CC7E98 /* CollatzConjecture.h */,
+				118A21E921248A3B00CC7E98 /* CollatzConjecture.m */,
+				118A21DE212489F700CC7E98 /* CollatzConjecture_Tests.m */,
+				118A21E0212489F700CC7E98 /* Info.plist */,
+				118A21E521248A0200CC7E98 /* README.md */,
+			);
+			path = "CollatzConjecture Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		118A21CD212489E200CC7E98 /* CollatzConjecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118A21D5212489E200CC7E98 /* Build configuration list for PBXNativeTarget "CollatzConjecture" */;
+			buildPhases = (
+				118A21CA212489E200CC7E98 /* Sources */,
+				118A21CB212489E200CC7E98 /* Frameworks */,
+				118A21CC212489E200CC7E98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollatzConjecture;
+			productName = CollatzConjecture;
+			productReference = 118A21CE212489E200CC7E98 /* CollatzConjecture */;
+			productType = "com.apple.product-type.tool";
+		};
+		118A21DB212489F700CC7E98 /* CollatzConjecture Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118A21E1212489F700CC7E98 /* Build configuration list for PBXNativeTarget "CollatzConjecture Tests" */;
+			buildPhases = (
+				118A21D8212489F700CC7E98 /* Sources */,
+				118A21D9212489F700CC7E98 /* Frameworks */,
+				118A21DA212489F700CC7E98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CollatzConjecture Tests";
+			productName = "CollatzConjecture Tests";
+			productReference = 118A21DC212489F700CC7E98 /* CollatzConjecture Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		118A21C6212489E200CC7E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Adam Felix";
+				TargetAttributes = {
+					118A21CD212489E200CC7E98 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					118A21DB212489F700CC7E98 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 118A21C9212489E200CC7E98 /* Build configuration list for PBXProject "CollatzConjecture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 118A21C5212489E200CC7E98;
+			productRefGroup = 118A21CF212489E200CC7E98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				118A21CD212489E200CC7E98 /* CollatzConjecture */,
+				118A21DB212489F700CC7E98 /* CollatzConjecture Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118A21DA212489F700CC7E98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118A21E721248A0200CC7E98 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		118A21CA212489E200CC7E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118A21D2212489E200CC7E98 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118A21D8212489F700CC7E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118A21DF212489F700CC7E98 /* CollatzConjecture_Tests.m in Sources */,
+				118A21EA21248A3B00CC7E98 /* CollatzConjecture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		118A21D3212489E200CC7E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		118A21D4212489E200CC7E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		118A21D6212489E200CC7E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		118A21D7212489E200CC7E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		118A21E2212489F700CC7E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CollatzConjecture Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamfelix.CollatzConjecture-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		118A21E3212489F700CC7E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "CollatzConjecture Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamfelix.CollatzConjecture-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118A21C9212489E200CC7E98 /* Build configuration list for PBXProject "CollatzConjecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118A21D3212489E200CC7E98 /* Debug */,
+				118A21D4212489E200CC7E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118A21D5212489E200CC7E98 /* Build configuration list for PBXNativeTarget "CollatzConjecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118A21D6212489E200CC7E98 /* Debug */,
+				118A21D7212489E200CC7E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118A21E1212489F700CC7E98 /* Build configuration list for PBXNativeTarget "CollatzConjecture Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118A21E2212489F700CC7E98 /* Debug */,
+				118A21E3212489F700CC7E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 118A21C6212489E200CC7E98 /* Project object */;
+}
