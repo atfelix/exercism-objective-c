@@ -2,7 +2,7 @@
 
 @interface DifferenceOfSquares : NSObject
 
-@property (nonatomic) NSInteger squareOfSums;
+@property (nonatomic) NSInteger squareOfSum;
 @property (nonatomic) NSInteger sumOfSquares;
 @property (nonatomic) NSInteger differenceOfSquares;
 

@@ -17,8 +17,8 @@ NSInteger sumOfSquares(NSInteger n) {
     self = [super init];
     if (self) {
         _sumOfSquares = sumOfSquares(number);
-        _squareOfSums = squaresOfSums(number);
-        _differenceOfSquares = _squareOfSums - _sumOfSquares;
+        _squareOfSum = squaresOfSums(number);
+        _differenceOfSquares = _squareOfSum - _sumOfSquares;
     }
     return self;
 }
